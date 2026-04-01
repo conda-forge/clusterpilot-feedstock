@@ -1,5 +1,5 @@
 {% set name = "clusterpilot" %}
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e05db6ce4464df3cc045c351e397722448de490c8f0f0ad6f959b5542d975854
+  sha256: 49568eea3a11792ed66bb9f5bcebf286eb94dbb2a29fd7c6ba54bf2104ba5668
 
 build:
   noarch: python
