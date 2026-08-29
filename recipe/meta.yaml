@@ -1,13 +1,13 @@
 {% set name = "clusterpilot" %}
-{% set version = "0.2.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 49568eea3a11792ed66bb9f5bcebf286eb94dbb2a29fd7c6ba54bf2104ba5668
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 7fc18a21bfe8016d04616c08718dfdb62244685b90694639ba6735fa6922ac59
 
 build:
   noarch: python
