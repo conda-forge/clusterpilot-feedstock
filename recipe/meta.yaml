@@ -1,5 +1,5 @@
 {% set name = "clusterpilot" %}
-{% set version = "0.5.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7fc18a21bfe8016d04616c08718dfdb62244685b90694639ba6735fa6922ac59
+  sha256: da209518f78bae5a7096ef1c020fdbc36e2a0e7caa7ff9b054feb65b2a1a3c8c
 
 build:
   noarch: python
